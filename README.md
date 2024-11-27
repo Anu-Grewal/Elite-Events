@@ -1,8 +1,8 @@
-# Eventify - Personal Event Management Platform
+# Elite Events - Personal Event Management Platform
 
-Eventify is a cutting-edge platform designed to streamline and personalize event management. Whether it's a birthday party, reunions, anniversary parties, or other personal events, Eventify helps users plan, organize, and execute events with ease. With its modern design and user-friendly interface, Eventify bridges the gap between event organizers and clients by offering real-time communication, and secure payment integrations.
+Elite Events is a cutting-edge platform designed to streamline and personalize event management. Whether it's a birthday party, reunions, anniversary parties, or other personal events, Elite Events helps users plan, organize, and execute events with ease. With its modern design and user-friendly interface, Elite Events bridges the gap between event organizers and clients by offering real-time communication, and secure payment integrations.
 
-![Description of Image](Eventify-8.png)
+![Description of Image](Elite Events-8.png)
 
 ---
 
@@ -65,14 +65,14 @@ Eventify is a cutting-edge platform designed to streamline and personalize event
 
 ## 📸 Screenshots
 1. Home Page: 
-A visually stunning homepage with details on why customers should choose Eventify.
+A visually stunning homepage with details on why customers should choose Elite Events.
 
 ![Description of Image](./Screenshots/Home.png)
 
 ---
 
 2. About Us: 
-A warm and personalized page explaining the mission and vision of Eventify.
+A warm and personalized page explaining the mission and vision of Elite Events.
 
 ![Description of Image](./Screenshots/About.png)
 
@@ -104,7 +104,7 @@ A testimonial page for proper user review section which has a connectivity with 
 ### 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/dhimanshashank/eventify.git
+git clone https://github.com/dhimanshashank/Elite Events.git
 ```
 
 ### 2. Backend Setup 

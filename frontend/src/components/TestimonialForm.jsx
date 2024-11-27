@@ -21,7 +21,7 @@ const TestimonialForm = () => {
 
     try {
       await axios.post(
-        "https://eventify-7b8y.onrender.com/api/testimonials",
+        "http://localhost:4000/api/testimonials",
         newTestimonial
       );
       toast.success("Thank you! Your review has been submitted.");

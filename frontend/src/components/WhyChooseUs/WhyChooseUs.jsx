@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
               "Great events don’t just happen, they are carefully planned."
             </p>
             <p className="text-lg text-gray-800 mt-4 Urbanist lg:pt-2 lg:pl-10">
-              ~ The Eventify Team
+              ~ The Elite Events Team
             </p>
           </div>
         </div>

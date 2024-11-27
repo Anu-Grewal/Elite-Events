@@ -33,7 +33,7 @@ const LoginSignupPopup = ({ setShowLogin, isLogin, setIsLogin, onLogin, user, se
 
     try {
       const response = await fetch(
-        `https://eventify-7b8y.onrender.com/api/users/login`,
+        `http://localhost:4000/api/users/login`,
         {
           method: "POST",
           headers: {
@@ -94,7 +94,7 @@ const LoginSignupPopup = ({ setShowLogin, isLogin, setIsLogin, onLogin, user, se
 
     try {
       const response = await fetch(
-        `https://eventify-7b8y.onrender.com/api/users/register`,
+        `http://localhost:4000/api/users/register`,
         {
           method: "POST",
           headers: {

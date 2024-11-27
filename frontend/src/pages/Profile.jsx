@@ -17,7 +17,7 @@ const Profile = () => {
           return;
         }
 
-        const response = await axios.get("https://eventify-7b8y.onrender.com/api/users/profile", {
+        const response = await axios.get("http://localhost:4000/api/users/profile", {
           headers: { Authorization: `Bearer ${token}` }
         });
 
@@ -52,7 +52,7 @@ const Profile = () => {
       }
 
       await axios.put(
-        "https://eventify-7b8y.onrender.com/api/users/profile",
+        "http://localhost:4000/api/users/profile",
         { ...userData },
         { headers: { Authorization: `Bearer ${token}` } }
       );

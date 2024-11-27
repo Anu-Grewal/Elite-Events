@@ -51,10 +51,10 @@ const Navbar = ({ setShowLogin, loggedIn, setLoggedIn, user }) => {
     <nav className="navbar flex py-4 bg-gray-800 text-white">
       <div className="navbar-left flex flex-col items-center">
         <h1 className="text-2xl font-bold md:text-3xl md:mr-4 Cinzel">
-          <Link to="/">EVENTIFY</Link>
+          <Link to="/">Elite Events</Link>
         </h1>
         <p className="text-xl font-bold text-gray-800 md:text-lg Urbanist md:mr-4">
-          Events and Design
+          Celebrate and Design
         </p>
       </div>
 

@@ -22,7 +22,7 @@ const Footer = () => {
 
     try {
       const response = await fetch(
-        "https://eventify-7b8y.onrender.com/api/feedback",
+        "http://localhost:4000/api/feedback",
         {
           // Use the full backend URL
           method: "POST",
@@ -119,16 +119,16 @@ const Footer = () => {
         <div className="lg:w-2/5 flex flex-col items-center lg:items-start">
           {/* Logo */}
           <img
-            src="/assets/favicon.jpg"
-            alt="Eventify Logo"
+            src="/assets/favicon.png"
+            alt="Elite Events Logo"
             className="w-24 h-24 rounded-full mb-6 mt-8 lg:mt-0 md:w-32 md:h-32 lg:w-48 lg:h-48"
           />
 
           {/* Address and Social Links */}
           <address className="text-gray-700 not-italic mb-6 text-center lg:text-left">
             <p className="Urbanist mb-2">123 Event Street, Ludhiana, Punjab</p>
-            <p className="Urbanist mb-2">Phone: +91 88476 80989</p>
-            <p className="Urbanist">Email: youreventify@gmail.com</p>
+            <p className="Urbanist mb-2">Phone: +91 7347073507</p>
+            <p className="Urbanist">Email: yourEliteEvents@gmail.com</p>
           </address>
 
           {/* Social Icons */}
@@ -148,7 +148,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <p className="text-white mt-12 text-center bg-black py-4 Urbanist">
-        © 2024 Eventify. All rights reserved. | Terms of Service
+        © 2024 Elite Events. All rights reserved. | Terms of Service
       </p>
     </footer>
   );
